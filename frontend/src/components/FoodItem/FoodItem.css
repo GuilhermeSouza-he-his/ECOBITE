@@ -1,4 +1,5 @@
 .food-item{
+    border: 3px solid #660707;
     width: 100%;
     margin: auto;
     border-radius: 15px;
@@ -25,6 +26,7 @@
 }
 
 .food-item-name-rating p{
+    color: #660707;
     font-style: 20px;
     font-weight: 500;
 }
@@ -39,7 +41,7 @@
 }
 
 .food-item-price{
-    color: tomato;
+    color: #000;
     font-size: 22px;
     font-weight: 500;
     margin: 10px 0;
