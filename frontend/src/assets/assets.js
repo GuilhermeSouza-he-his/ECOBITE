@@ -4,7 +4,6 @@ import add_icon_green from "./add_icon_green.png"
 import add_icon_red from "./add_icon_red.png"
 import add from "./add.png"
 import basket from "./basket.png"
-import header from "./header.png"
 import cross from "./cross.png"
 import app_store from "./app_store.png"
 import app_store1 from "./app_store1.png"
@@ -63,7 +62,6 @@ export const assets = {
         add_icon_green,
         add_icon_red,
         search_icon,
-        header,
         rating_stars,
         app_store,
         app_store1,
