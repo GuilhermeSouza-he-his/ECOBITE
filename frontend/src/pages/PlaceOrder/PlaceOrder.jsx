@@ -6,6 +6,7 @@ import { useNavigate } from 'react-router-dom';
 const PlaceOrder = () => {
 
   const {getTotalCartAmount, token, food_list, cartItem, url} = useContext(StoreContext)
+ 
 
   const [data,setData] = useState({
     firstName:"",
@@ -18,7 +19,8 @@ const PlaceOrder = () => {
     state: "",
     phone:"",
   })
-
+ 
+  
   const onChangeHandler = (event) =>{
     const name = event.target.name;
     const value = event.target.value;
@@ -49,7 +51,8 @@ const PlaceOrder = () => {
       alert("Error")
     }
   }
-
+ 
+  
   const navigate = useNavigate()
 
   useEffect(()=>{
