@@ -1,0 +1,126 @@
+.login-popup {
+    width: 100%;
+    height: 100%;
+    background-color: #00000090;
+    display: grid;
+    z-index: 1;
+    position: fixed; /* melhor que absolute */
+    top: 0;
+    left: 0;
+}
+
+.login-popup-container {
+    place-self: center;
+    display: flex;
+    flex-direction: row; /* lado a lado */
+    width: 700px; 
+    height: auto;
+    border-radius: 12px;
+    overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
+    animation: fadeIn 0.5s;
+}
+
+/* LADO ESQUERDO */
+.login-left {
+  position: relative; /* permite que o X fique alinhado dentro do bloco laranja */
+  flex: 1;
+  background: #d2691e;
+  color: white;
+  padding: 40px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.close-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  filter: invert(1); /* deixa branco */
+  transition: transform 0.2s ease;
+}
+
+.close-btn:hover {
+  transform: scale(1.2);
+}
+
+
+.login-left h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.login-left p {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.login-left button {
+    background: #5a1818; /* vinho escuro */
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.login-left button:hover {
+    background: #3d0f0f;
+}
+
+/* LADO DIREITO */
+.login-right {
+    flex: 1;
+    background: #4b0e0e; /* vinho */
+    color: white;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-right h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.login-right input {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    background: #fff;
+    color: #333;
+}
+
+.login-right button {
+    margin-top: 10px;
+    background: #e0912e; /* laranja/amarelo */
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.login-right button:hover {
+    background: #c9781e;
+}
+img{
+    width: 30px;
+}
