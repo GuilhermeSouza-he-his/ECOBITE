@@ -1,9 +1,9 @@
-import Logo from "./Logo.png"
 import search_icon from "./search_icon.png"
 import add_icon_green from "./add_icon_green.png"
 import add_icon_red from "./add_icon_red.png"
 import add from "./add.png"
 import basket from "./basket.png"
+import header from "./header.png"
 import cross from "./cross.png"
 import app_store from "./app_store.png"
 import app_store1 from "./app_store1.png"
@@ -56,12 +56,12 @@ import food_31 from "./food_31.png"
 import food_32 from "./food_32.png"
 
 export const assets = {
-        Logo,
         basket,
         add,
         add_icon_green,
         add_icon_red,
         search_icon,
+        header,
         rating_stars,
         app_store,
         app_store1,
@@ -74,35 +74,35 @@ export const assets = {
 
 export const menu_list = [
     {
-        menu_name: "salad",
+        menu_name: "tacaca",
         menu_image: menu_1
     },
     {
-        menu_name: "sushi",
+        menu_name: "acai",
         menu_image: menu_2
     },
     {
-        menu_name: "cake",
+        menu_name: "peixe",
         menu_image: menu_3
     },
     {
-        menu_name: "sandwich",
+        menu_name: "bolo",
         menu_image: menu_4
     },
     {
-        menu_name: "chicken",
+        menu_name: "manicoba",
         menu_image: menu_5
     },
     {
-        menu_name: "pure veg",
+        menu_name: "vatapa",
         menu_image: menu_6
     },
     {
-        menu_name: "pasta",
+        menu_name: "quindim",
         menu_image: menu_7
     },
     {
-        menu_name: "pizza",
+        menu_name: "coxinha",
         menu_image: menu_8
     },
 ]
@@ -110,258 +110,258 @@ export const menu_list = [
 export const food_list = [
     {
         _id: "1",
-        name: "Greek salad",
+        name: "Tacacá",
         image: food_1,
-        price: 12,
+        price: 14,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "salad"
+        category: "tacaca"
     },
     {
         _id: "2",
-        name: "Greek salad",
+        name: "Tacacá",
         image: food_2,
-        price: 14,
+        price: 16,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "salad"
+        category: "tacaca"
     },
     {
         _id: "3",
-        name: "Greek salad",
+        name: "Tacacá",
         image: food_3,
-        price: 16,
+        price: 18,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "salad"
+        category: "tacaca"
     },
     {
         _id: "4",
-        name: "Greek salad",
+        name: "Tacacá",
         image: food_4,
-        price: 24,
+        price: 20,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "salad"
+        category: "tacaca"
     },
     {
         _id: "5",
-        name: "Greek salad",
+        name: "Açai Com Calda De Chocolate",
         image: food_5,
-        price: 18,
+        price: 25,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "sushi"
+        category: "acai"
     },
     {
         _id: "6",
-        name: "Greek salad",
+        name: "Açai Com Banana e Uvas",
         image: food_6,
-        price: 12,
+        price: 25,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "sushi"
+        category: "acai"
     },
     {
         _id: "7",
-        name: "Greek salad",
+        name: "Açai Com Morango e Amendoim",
         image: food_7,
-        price: 22,
+        price: 25,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "sushi"
+        category: "acai"
     },
     {
         _id: "8",
-        name: "Greek salad",
+        name: "Açai Com Nozes",
         image: food_8,
-        price: 14,
+        price: 25,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "sushi"
+        category: "acai"
     },
     {
         _id: "9",
-        name: "Pie Maria Isabel",
+        name: "Salmão",
         image: food_9,
-        price: 18,
+        price: 90,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "cake"
+        category: "peixe"
     },
     {
         _id: "10",
-        name: "Pie lemon",
+        name: "Peixe Frito",
         image: food_10,
-        price: 16,
+        price: 50,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "cake"
+        category: "peixe"
     },
     {
         _id: "11",
-        name: "Pie peanut",
+        name: "Peixe Com Molho De Maracuja",
         image: food_11,
-        price: 12,
+        price: 75,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "cake"
+        category: "peixe"
     },
     {
         _id: "12",
-        name: "pie strawberry",
+        name: "Peixe com Especiarias",
         image: food_12,
-        price: 12,
+        price: 30,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "cake"
+        category: "peixe"
     },
     {
         _id: "13",
-        name: "Greek salad",
+        name: "Torta Maria Isabel",
         image: food_13,
-        price: 20,
+        price: 8,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "sandwich"
+        category: "bolo"
     },
     {
         _id: "14",
-        name: "Greek salad",
+        name: "Torta de Limão",
         image: food_14,
-        price: 120,
+        price: 8,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "sandwich"
+        category: "bolo"
     },
     {
         _id: "15",
-        name: "Greek salad",
+        name: "Torta de Amendoim",
         image: food_15,
-        price: 124,
+        price: 8,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "sandwich"
+        category: "bolo"
     },
     {
         _id: "16",
-        name: "Greek salad",
+        name: "Torta de Morango",
         image: food_16,
-        price: 80,
+        price: 8,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "sandwich"
+        category: "bolo"
     },
     {
         _id: "17",
-        name: "Greek salad",
+        name: "Maniçoba",
         image: food_17,
-        price: 44,
+        price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "chicken"
+        category: "manicoba"
     },
     {
         _id: "18",
-        name: "Greek salad",
+        name: "Maniçoba",
         image: food_18,
-        price: 67,
+        price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "chicken"
+        category: "manicoba"
     },
     {
         _id: "19",
-        name: "Greek salad",
+        name: "Maniçoba",
         image: food_19,
-        price: 19,
+        price: 20,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "chicken"
+        category: "manicoba"
     },
     {
         _id: "20",
-        name: "Greek salad",
+        name: "Maniçoba",
         image: food_20,
-        price: 12,
+        price: 20,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "chicken"
+        category: "manicoba"
     },
     {
         _id: "21",
-        name: "Greek salad",
+        name: "Vatapá",
         image: food_21,
-        price: 12,
+        price: 22,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "pure veg"
+        category: "vatapa"
     },
     {
         _id: "22",
-        name: "Greek salad",
+        name: "Vatapá",
         image: food_22,
-        price: 12,
+        price: 22,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "pure veg"
+        category: "vatapa"
     },
     {
         _id: "23",
-        name: "Greek salad",
+        name: "Vatapá Com Arroz e Feijão",
         image: food_23,
-        price: 28,
+        price: 24,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "pure veg"
+        category: "vatapa"
     },
     {
         _id: "24",
-        name: "Greek salad",
+        name: "Vatapá",
         image: food_24,
-        price: 37,
+        price: 20,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "pure veg"
+        category: "vatapa"
     },
     {
         _id: "25",
-        name: "Greek salad",
+        name: "Bolo Quindim",
         image: food_25,
-        price: 100,
+        price: 15,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "pasta"
+        category: "quindim"
     },
     {
         _id: "26",
-        name: "Greek salad",
+        name: "Torta De Quindim",
         image: food_26,
-        price: 120,
+        price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "pasta"
+        category: "quindim"
     },
     {
         _id: "27",
-        name: "Greek salad",
+        name: "Fatia De Quindim",
         image: food_27,
-        price: 126,
+        price: 8,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "pasta"
+        category: "quindim"
     },
     {
         _id: "28",
-        name: "Greek salad",
+        name: "Docinho de Quindim",
         image: food_28,
-        price: 15,
+        price: 1,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "pasta"
+        category: "quindim"
     },
     {
         _id: "29",
-        name: "Greek salad",
+        name: "Coxinha De Frango",
         image: food_29,
-        price: 119,
+        price: 8,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "pizza"
+        category: "coxinha"
     },
     {
         _id: "30",
-        name: "Greek salad",
+        name: "Coxinha De Caranguejo",
         image: food_30,
-        price: 22,
+        price: 12,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "pizza"
+        category: "coxinha"
     },
     {
         _id: "31",
-        name: "Greek salad",
+        name: "Coxinha De Queijo",
         image: food_31,
-        price: 22,
+        price: 8,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "pizza"
+        category: "coxinha"
     },
     {
         _id: "32",
-        name: "Greek salad",
+        name: "Coxinha De Camarão",
         image: food_32,
-        price: 24,
+        price: 10,
         description: "Food provides essential nutrients for overall health and well-being",
-        category: "pizza"
+        category: "coxinha"
     },
 ]
