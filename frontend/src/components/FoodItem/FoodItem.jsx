@@ -16,6 +16,7 @@ const FoodItem = ({id, name, price, description, image}) => {
           :<div className='food-item-count'>
               <img onClick={()=>removeFromCart(id)} src={assets.add_icon_red}/>
               <p>{cartItem[id]}</p>
+              
               <img onClick={()=>addToCart(id)}src={assets.add_icon_green}/>
           </div>
         }
