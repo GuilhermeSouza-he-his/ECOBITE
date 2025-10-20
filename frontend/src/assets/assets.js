@@ -12,6 +12,9 @@ import profile_image from "./profile_image.png"
 import logout from "./logout.png"
 import orders from "./orders.png"
 import parcel_icon from "./parcel_icon.png"
+import whatsapp from "./whatsapp.png"
+import instagram from "./instagram.png"
+import facebook from "./facebook.png"
 
 import menu_1 from "./menu_1.png"
 import menu_2 from "./menu_2.png"
@@ -70,6 +73,9 @@ export const assets = {
         logout,
         orders,
         parcel_icon,
+        facebook,
+        instagram,
+        whatsapp
 }
 
 export const menu_list = [
