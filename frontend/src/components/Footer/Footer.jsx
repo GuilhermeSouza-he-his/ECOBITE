@@ -7,12 +7,12 @@ const Footer = () => {
     <div className='footer' id='footer'>
       <div className='footer-content'>
         <div className='footer-content-left'>
-            <h2>LOGO</h2>
+            <h2>ECOBITE.</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
             <div className='footer-social-icons'>
-                <img src={assets}/>
-                <img src={assets}/>
-                <img src={assets}/>
+                <img src={assets.instagram}/>
+                <img src={assets.whatsapp}/>
+                <img src={assets.facebook}/>
             </div>
         </div>
         <div className='footer-content-center'>
@@ -33,7 +33,7 @@ const Footer = () => {
         </div>
       </div>
       <hr/>
-      <p className='footer-copyright'>Copyright 2024 © tomato.com - All right Reserved.</p>
+      <p className='footer-copyright'>Copyright 2024 © ecobite.com - All right Reserved.</p>
     </div>
   )
 }
