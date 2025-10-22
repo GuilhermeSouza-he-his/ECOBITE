@@ -5,7 +5,7 @@ import parcel_icon from "./parcel_icon.png"
 import profile_image from "./profile_image.png"
 import upload_area from "./upload_area.png"
 
-
+export const url = 'https://ecobite-s6ni.onrender.com'
 export const assets = {
         logo,
         add,
