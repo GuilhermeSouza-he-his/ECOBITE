@@ -1,11 +1,13 @@
 import React from 'react'
 import "./ExploreMenu.css"
 import {menu_list} from "../../assets/assets.js"
+import { useTranslation } from "react-i18next"
 const ExploreMenu = ({category, setCategory}) => {
+  const { t } = useTranslation()
   return (
     <div className='explore-menu' id='explore-menu'>
-      <h1>Explore our menu</h1>
-      <p className='explore-menu-text'>Choose from a diverse menu featuring a delectable array of dishes crafted with the finest ingredients and culinay expertise. Our mission is to satisfy your cravings and elevate your dining experience, one delecious meal at a time</p>
+      <h1>{t("explore_menu.title")}</h1>
+      <p className='explore-menu-text'>{t("explore_menu.description")}</p>
       <div className='explore-menu-list'>
         {menu_list.map((item, index)=>{
             return(

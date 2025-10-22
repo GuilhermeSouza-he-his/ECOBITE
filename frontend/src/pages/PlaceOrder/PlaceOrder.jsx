@@ -3,9 +3,11 @@ import "./PlaceOrder.css"
 import axios from 'axios'
 import { StoreContext } from '../../context/StoreContext'
 import { useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next' 
 const PlaceOrder = () => {
 
   const {getTotalCartAmount, token, food_list, cartItem, url} = useContext(StoreContext)
+  const { t } = useTranslation()
  
 
   const [data,setData] = useState({
@@ -66,43 +68,43 @@ const PlaceOrder = () => {
   return (
     <form onSubmit={placeOrder} className='place-order'>
       <div className="place-order-left">
-        <p className='title'>Delivery Information</p>
+         <p className='title'>{t("payment.delivery_info")}</p>
         <div className="multi-fields">
-          <input required name='firstName' onChange={onChangeHandler} value={data.firstName} type="text" placeholder='Fisrt name' />
-          <input required name='lastName' onChange={onChangeHandler} value={data.lastName} type="text" placeholder='Last name' />
+          <input required name='firstName' onChange={onChangeHandler} value={data.firstName} type="text"  placeholder={t("payment.first_name")} />
+          <input required name='lastName' onChange={onChangeHandler} value={data.lastName} type="text" placeholder={t("payment.last_name")} />
         </div>
-          <input required name='email' onChange={onChangeHandler} value={data.email} type="email" placeholder='Email address' />
-          <input required name='street' onChange={onChangeHandler} value={data.street} type="text" placeholder='Street' />
+          <input required name='email' onChange={onChangeHandler} value={data.email} type="email" placeholder={t("payment.email")} />
+          <input required name='street' onChange={onChangeHandler} value={data.street} type="text" placeholder={t("payment.street")} />
         <div className="multi-fields">
-          <input required name='city' onChange={onChangeHandler} value={data.city} type="text" placeholder='City' />
-          <input required name='state' onChange={onChangeHandler} value={data.state} type="text" placeholder='State' />
+          <input required name='city' onChange={onChangeHandler} value={data.city} type="text" placeholder={t("payment.city")} />
+          <input required name='state' onChange={onChangeHandler} value={data.state} type="text" placeholder={t("payment.state")} />
         </div>
         <div className="multi-fields">
-          <input required name='zipecode' onChange={onChangeHandler} value={data.zipecode} type="text" placeholder='Zip code' />
-          <input required name='country' onChange={onChangeHandler} value={data.country} type="text" placeholder='Country' />
+          <input required name='zipecode' onChange={onChangeHandler} value={data.zipecode} type="text" placeholder={t("payment.zip_code")} />
+          <input required name='country' onChange={onChangeHandler} value={data.country} type="text" placeholder={t("payment.country")} />
         </div>
-        <input required name='phone' onChange={onChangeHandler} value={data.phone} type="text" placeholder='Phone' />
+        <input required name='phone' onChange={onChangeHandler} value={data.phone} type="text" placeholder={t("payment.phone")} />
       </div>
       <div className="place-order-right">
         <div className="cart-total">
-          <h2>Cart Totals</h2>
+          <h2>{t("cart2.total")}</h2>
           <div>
             <div className="cart-totals-details">
-              <p>Subtotal</p>
+              <p>{t("cart2.subtotal")}</p>
               <p>${getTotalCartAmount()}</p>
             </div>
             <hr/>
             <div className="cart-totals-details">
-              <p>Delivery Fee</p>
+              <p>{t("cart2.delivery_fee")}</p>
               <p>${getTotalCartAmount()===0?0:2}</p>
             </div>
             <hr/>
             <div className="cart-totals-details">
-              <b>Total</b>
+              <b>{t("cart2.total_label")}</b>
               <b>${getTotalCartAmount()===0?0:getTotalCartAmount()+2}</b>
             </div>
             </div>
-            <button type='submit'>PROCEED TO PAYMENT</button>
+            <button type='submit'>{t("payment.proceed")}</button>
         </div>
       </div>
     </form>

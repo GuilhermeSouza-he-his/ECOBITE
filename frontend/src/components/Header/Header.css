@@ -21,12 +21,13 @@
 
 .header-contents h2{
     font-weight: 500;
-    color: #fff;
+    color: #2C3E50;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.3);
     font-size: max(4.5vw, 22px);
 }
 
 .header-contents p{
-    color: #fff;
+    color: #2C3E50;
     font-size: 1vw;
 }
 
