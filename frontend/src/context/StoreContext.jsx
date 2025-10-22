@@ -6,7 +6,7 @@ export const StoreContext = createContext(null)
 const StoreContextProvider = (props) =>{
 
     const [cartItem, setCartItem] = useState({});
-    const url = 'http://127.0.0.1:4000'
+    const url = 'https://ecobite-s6ni.onrender.com'
     const [token,setToken] = useState("")
     const [food_list, setFoodList] = useState([])
     
