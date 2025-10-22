@@ -1,0 +1,84 @@
+{
+  "navbar": {
+    "home": "Home",
+    "menu": "Menu",
+    "mobile_app": "Mobile App",
+    "contact_us": "Contact Us",
+    "sign_in": "Sign In",
+    "orders": "Orders",
+    "logout": "Logout"
+  },
+  "header": {
+    "title": "Order your favourite food here",
+    "description": "Choose from a diverse menu featuring a delectable array of dishes crafted with the finest ingredients and culinary expertise. Our mission is to satisfy your cravings and elevate your dining experience, one delicious meal at a time.",
+    "button": "View menu"
+  },
+   "explore_menu": {
+    "title": "Explore our menu",
+    "description": "Choose from a diverse menu featuring a delectable array of dishes crafted with the finest ingredients and culinary expertise. Our mission is to satisfy your cravings and elevate your dining experience, one delicious meal at a time."
+  },
+   "footer": {
+    "title_left": "ECOBITE.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title_center": "COMPANY",
+    "link_home": "Home",
+    "link_about": "About us",
+    "link_delivery": "Delivery",
+    "link_privacy": "Privacy policy",
+    "title_right": "GET IN TOUCH",
+    "copyright": "Copyright 2024 © ecobite.com - All right Reserved."
+  },
+   "foodDisplay": {
+    "title": "Top dishes near you"
+  },
+  "appDownload": {
+    "text": "For a better experience, download the Ecobite App"
+  },
+  "cart": {
+    "items": "Items",
+    "title": "Title",
+    "price": "Price",
+    "quantity": "Quantity",
+    "total": "Total",
+    "remove": "Remove",
+    "cart_totals": "Cart Totals",
+    "subtotal": "Subtotal",
+    "delivery_fee": "Delivery Fee",
+    "checkout": "PROCEED TO CHECKOUT",
+    "promo_text": "If you have a promo code, enter it here",
+    "promo_placeholder": "Promo code",
+    "submit": "Submit"
+  },
+   "orders": {
+    "title": "My Orders",
+    "items_count": "Items",
+    "track_button": "Track Order",
+    "status": {
+      "processing": "Processing",
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "on_the_way": "On the way",
+      "delivered": "Delivered"
+    }
+  },
+  "payment": {
+    "delivery_info": "Delivery Information",
+    "first_name": "First name",
+    "last_name": "Last name",
+    "email": "Email address",
+    "street": "Street",
+    "city": "City",
+    "state": "State",
+    "zip_code": "Zip code",
+    "country": "Country",
+    "phone": "Phone",
+    "proceed": "PROCEED TO PAYMENT",
+    "error": "Error while placing the order"
+  },
+  "cart2": {
+    "total": "Cart Totals",
+    "subtotal": "Subtotal",
+    "delivery_fee": "Delivery Fee",
+    "total_label": "Total"
+  }
+}

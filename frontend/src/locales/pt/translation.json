@@ -1,0 +1,84 @@
+{
+  "navbar": {
+    "home": "Início",
+    "menu": "Cardápio",
+    "mobile_app": "Aplicativo",
+    "contact_us": "Contato",
+    "sign_in": "Entrar",
+    "orders": "Pedidos",
+    "logout": "Sair"
+  },
+   "header": {
+    "title": "Peça sua comida favorita aqui",
+    "description": "Escolha entre um cardápio diversificado com uma deliciosa variedade de pratos preparados com os melhores ingredientes e expertise culinária. Nossa missão é satisfazer seus desejos e elevar sua experiência gastronômica, uma refeição deliciosa de cada vez.",
+    "button": "Ver cardápio"
+  },
+   "explore_menu": {
+    "title": "Explore nosso cardápio",
+    "description": "Escolha entre um cardápio diversificado com uma deliciosa variedade de pratos preparados com os melhores ingredientes e expertise culinária. Nossa missão é satisfazer seus desejos e elevar sua experiência gastronômica, uma refeição deliciosa de cada vez."
+  },
+   "footer": {
+    "title_left": "ECOBITE.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title_center": "EMPRESA",
+    "link_home": "Início",
+    "link_about": "Sobre nós",
+    "link_delivery": "Entrega",
+    "link_privacy": "Política de privacidade",
+    "title_right": "CONTATO",
+    "copyright": "Direitos autorais 2024 © ecobite.com - Todos os direitos reservados."
+  },
+   "foodDisplay": {
+    "title": "Melhores pratos perto de você"
+  },
+  "appDownload": {
+    "text": "Para uma melhor experiência, baixe o aplicativo Ecobite"
+  },
+  "cart": {
+    "items": "Itens",
+    "title": "Título",
+    "price": "Preço",
+    "quantity": "Quantidade",
+    "total": "Total",
+    "remove": "Remover",
+    "cart_totals": "Totais do Carrinho",
+    "subtotal": "Subtotal",
+    "delivery_fee": "Taxa de Entrega",
+    "checkout": "IR PARA O PAGAMENTO",
+    "promo_text": "Se você tiver um código promocional, insira aqui",
+    "promo_placeholder": "Código promocional",
+    "submit": "Enviar"
+  },
+  "orders": {
+    "title": "Meus Pedidos",
+    "items_count": "Itens",
+    "track_button": "Rastrear Pedido",
+    "status": {
+      "processing": "Em processamento",
+      "completed": "Concluído",
+      "cancelled": "Cancelado",
+      "on_the_way": "A caminho",
+      "delivered": "Entregue"
+    }
+  },
+  "payment": {
+    "delivery_info": "Informações de Entrega",
+    "first_name": "Nome",
+    "last_name": "Sobrenome",
+    "email": "E-mail",
+    "street": "Rua",
+    "city": "Cidade",
+    "state": "Estado",
+    "zip_code": "CEP",
+    "country": "País",
+    "phone": "Telefone",
+    "proceed": "PROSSEGUIR PARA O PAGAMENTO",
+    "error": "Erro ao processar o pedido"
+  },
+  "cart2": {
+    "total": "Totais do Carrinho",
+    "subtotal": "Subtotal",
+    "delivery_fee": "Taxa de Entrega",
+    "total_label": "Total"
+  }
+}

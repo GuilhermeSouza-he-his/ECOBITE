@@ -1,0 +1,84 @@
+{
+  "navbar": {
+    "home": "首页",
+    "menu": "菜单",
+    "mobile_app": "移动应用",
+    "contact_us": "联系我们",
+    "sign_in": "登录",
+    "orders": "订单",
+    "logout": "退出登录"
+  },
+   "header": {
+    "title": "在这里订购您最喜欢的美食",
+    "description": "从多样化的菜单中选择，由最优质的食材和烹饪技巧制作的美味佳肴。我们的使命是满足您的味蕾，让每一顿美餐都成为难忘的体验。",
+    "button": "查看菜单"
+  },
+   "explore_menu": {
+    "title": "探索我们的菜单",
+    "description": "从多样化的菜单中选择，由最优质的食材和烹饪技巧制作的美味佳肴。我们的使命是满足您的味蕾，让每一顿美餐都成为难忘的体验。"
+  },
+  "footer": {
+    "title_left": "ECOBITE.",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "title_center": "公司",
+    "link_home": "主页",
+    "link_about": "关于我们",
+    "link_delivery": "配送",
+    "link_privacy": "隐私政策",
+    "title_right": "联系我们",
+    "copyright": "版权所有 2024 © ecobite.com - 保留所有权利。"
+  },
+   "foodDisplay": {
+    "title": "您附近的热门菜肴"
+  },
+  "appDownload": {
+    "text": "为了获得更好的体验，请下载 Ecobite 应用程序"
+  },
+   "cart": {
+    "items": "商品",
+    "title": "标题",
+    "price": "价格",
+    "quantity": "数量",
+    "total": "总计",
+    "remove": "删除",
+    "cart_totals": "购物车总计",
+    "subtotal": "小计",
+    "delivery_fee": "配送费",
+    "checkout": "去结账",
+    "promo_text": "如果您有优惠码，请在此输入",
+    "promo_placeholder": "优惠码",
+    "submit": "提交"
+  },
+  "orders": {
+    "title": "我的订单",
+    "items_count": "商品数量",
+    "track_button": "追踪订单",
+    "status": {
+      "processing": "处理中",
+      "completed": "已完成",
+      "cancelled": "已取消",
+      "on_the_way": "配送中",
+      "delivered": "已送达"
+    }
+  },
+  "payment": {
+    "delivery_info": "配送信息",
+    "first_name": "名字",
+    "last_name": "姓氏",
+    "email": "电子邮件",
+    "street": "街道",
+    "city": "城市",
+    "state": "省/州",
+    "zip_code": "邮政编码",
+    "country": "国家",
+    "phone": "电话",
+    "proceed": "继续付款",
+    "error": "下单时出错"
+  },
+  "cart2": {
+    "total": "购物车总计",
+    "subtotal": "小计",
+    "delivery_fee": "运费",
+    "total_label": "总计"
+  }
+}

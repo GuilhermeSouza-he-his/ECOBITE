@@ -1,14 +1,16 @@
 import React from 'react'
 import "./Footer.css"
 import { assets } from './../../assets/assets';
+import { useTranslation } from 'react-i18next'
 
 const Footer = () => {
+  const { t } = useTranslation()
   return (
     <div className='footer' id='footer'>
       <div className='footer-content'>
         <div className='footer-content-left'>
-            <h2>ECOBITE.</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
+            <h2>{t("footer.title_left")}</h2>
+            <p>{t("footer.description")}</p>
             <div className='footer-social-icons'>
                 <img src={assets.instagram}/>
                 <img src={assets.whatsapp}/>
@@ -16,24 +18,24 @@ const Footer = () => {
             </div>
         </div>
         <div className='footer-content-center'>
-            <h2>COMPANY</h2>
+            <h2>{t("footer.title_center")}</h2>
             <ul>
-                <li>Home</li>
-                <li>About us</li>
-                <li>Delivery</li>
-                <li>Privacy policy</li>
+                <li>{t("footer.link_home")}</li>
+                <li>{t("footer.link_about")}</li>
+                <li>{t("footer.link_delivery")}</li>
+                <li>{t("footer.link_privacy")}</li>
             </ul>
         </div>
         <div className='footer-content-right'>
-            <h2>GET IN TOUCH</h2>
+            <h2>{t("footer.title_right")}</h2>
             <ul>
                 <li>+1-212-456-7890</li>
-                <li>contact@tomato.com</li>
+                <li>contact@ecobite.com</li>
             </ul>
         </div>
       </div>
       <hr/>
-      <p className='footer-copyright'>Copyright 2024 © ecobite.com - All right Reserved.</p>
+      <p className='footer-copyright'>{t("footer.copyright")}</p>
     </div>
   )
 }
